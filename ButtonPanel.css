@@ -1,0 +1,19 @@
+.button-panel {
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  .button.clear {
+    grid-column: span 4; /* Make the clear button span all columns */
+    background-color: #ff3b30;
+    color: #fff;
+  }
+  
+  .button.clear:active {
+    background-color: #cc2a24;
+  }  

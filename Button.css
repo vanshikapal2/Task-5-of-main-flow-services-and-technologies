@@ -1,0 +1,31 @@
+.button {
+    width: 63px;
+    height: 63px;
+    margin: 5px;
+    font-size: 1.5em;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:active {
+    background-color: #ccc;
+    transform: scale(0.95);
+  }
+  
+  .button.operation {
+    background-color: #ff9500;
+    color: #fff;
+  }
+  
+  .button.operation:active {
+    background-color: #cc7a00;
+  }
+  
+  .button.zero {
+    width: 63px; 
+  }
